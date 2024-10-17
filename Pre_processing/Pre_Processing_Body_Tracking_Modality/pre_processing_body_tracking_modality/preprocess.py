@@ -159,6 +159,10 @@ def call_component():
     val = scaler.fit_transform(stacked_data1)
     test = scaler.fit_transform(stacked_data2)
     train = scaler.fit_transform(stacked_data3)
+    
+    val = scaler.fit_transform(stacked_data1)
+    test = scaler.fit_transform(stacked_data2)
+    train = scaler.fit_transform(stacked_data3)
     # ------------------------------------------------------------------------------------
 
     # Add the corresponding labels to the data
